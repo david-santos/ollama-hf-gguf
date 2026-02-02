@@ -1,4 +1,4 @@
-package pt.dcs.example.springai.ollama_hf_gguf;
+package pt.dcs.example.spring_ai.ollama_hf_gguf;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
