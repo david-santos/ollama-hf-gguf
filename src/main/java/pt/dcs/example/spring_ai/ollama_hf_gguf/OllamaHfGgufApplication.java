@@ -15,7 +15,7 @@ public class OllamaHfGgufApplication {
 	private final Logger logger = LoggerFactory.getLogger(OllamaHfGgufApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(OllamaHfGgufApplication.class, args);
+		SpringApplication.run(OllamaHfGgufApplication.class, args).close(); // The application starts, executes the weather query, displays the result, and then exits cleanly.
 	}
 
 	@Bean
